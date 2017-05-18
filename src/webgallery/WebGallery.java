@@ -13,12 +13,26 @@ import java.util.ArrayList;
  */
 public class WebGallery {
     private ArrayList<Usuario> usuario;
+    private Obra listaObras;
     
     public WebGallery(Usuario usuario){
         this.usuario = new ArrayList<>();
+        this.listaObras = listaObras;
+    }
+    
+    public Obra getObra(){
+        return listaObras;
+    }
+    
+    public void setObra(Obra listaObras){
+        this.listaObras = listaObras;
     }
     
     public void registrarUsuarios(){
+        
+    }
+    
+    public void consultarColeccion(){
         
     }
     
